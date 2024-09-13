@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+ h1{
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a{
+  padding:  0 10px;
+  background-color: grey;
+
+}
+
+
+figure img{
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+
+
+figcaption{
+  font-size: 15px;
+  text-align: center;
+}
+#featured-property{
+  text-align: center;
+}
+#featured-property p {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 15px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+  background-color: red;
+}
+
+#details div {
+  text-align: center;
+  width: 25%;
+  margin-right: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
